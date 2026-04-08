@@ -1,0 +1,42 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getCollection } from 'astro:content';
+
+const title = "Workouts"
+
+const workouts = (await getCollection('workouts')).sort(
+  (a, b) => a.data.idx - b.data.idx,
+);
+
+// Group by parent folder
+const workoutsGroupedByCategory = workouts.reduce((acc, workout) => {
+  const [group] = workout.id.split('/');
+  if (!acc[group]) acc[group] = [];
+  acc[group].push(workout);
+  return acc;
+}, {});
+
+---
+
+<BaseLayout title={title}>
+  <h1 class="text-4xl">Workouts</h1>
+
+  <div class="mt-5 flex flex-col gap-y-5">
+    {Object.entries(workoutsGroupedByCategory).map(([category, workoutsInCategory]) => (
+    <div>
+      <h2 class="text-xl text-blue-950 font-medium">{category}</h2>
+      <ul class="mt-1">
+        {workoutsInCategory.map(workout => (
+        <li>
+          <a class="text-blue-500 hover:text-blue-600 hover:underline" href={`/workouts/${workout.id}`}>
+            {workout.data.name}
+          </a>
+        </li>
+        ))}
+      </ul>
+    </div>
+    ))}
+  </div>
+
+
+</BaseLayout>

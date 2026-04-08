@@ -1,0 +1,52 @@
+---
+import BaseLayout from "@/layouts/BaseLayout.astro";
+import { getCollection } from 'astro:content';
+
+export async function getStaticPaths() {
+  const workouts = await getCollection('workouts');
+
+  return workouts.map(workout => ({
+    params: { id: workout.id },
+    props: { workout },
+  }));
+}
+
+const { workout } = Astro.props;
+---
+
+<BaseLayout title={workout.data.name} className="text-blue-950">
+  <h1 class="text-4xl text-center underline">{workout.data.name}</h1>
+
+  {workout.data.payload && (
+  <ol class="mt-8 flex flex-col gap-y-2 border border-2 border-blue-900 list-decimal pl-10 pr-4 py-4 max-w-2xl mx-auto">
+    {workout.data.payload.map((item) => (
+    <li>
+      {item.name} 
+      {(typeof item.reps === "number" && item.sets > 1) && <span>{item.sets} x </span> }
+      <span class="ml-1">{item.reps} {item.suffix}</span>
+    </li>
+    ))}
+  </ol>
+  )
+  }
+
+  {workout.data.phases && (
+  <div class="mt-10 gap-8 max-w-2xl mx-auto">
+    {workout.data.phases.map((phase, idx) => (
+    <div class="mb-4 p-4 rounded">
+      <h2 class="text-center text-blue-900 font-semibold text-2xl">{idx + 1}. {phase.name}</h2>
+      <ol class="mt-2 flex flex-col gap-y-2 border border-2 border-blue-900 list-decimal pl-10 pr-4 py-4">
+        {phase.payload.map((item) => (
+        <li>
+          {item.name} 
+          {(typeof item.reps === "number" && item.sets > 1) && <span>{item.sets} x </span> }
+          <span class="ml-1">{item.reps} {item.suffix}</span>
+        </li>
+        ))}
+      </ol>
+    </div>
+    ))}
+  </div>
+  )}
+
+</BaseLayout>
