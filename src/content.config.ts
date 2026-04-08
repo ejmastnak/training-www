@@ -9,7 +9,7 @@ const workouts = defineCollection({
   }),
   schema: z.object({
     name: z.string(),
-    idx: z.int().nullish(),
+    idx: z.number().int().nullish(),
     phases: z.any().nullish(),
     payload: z.any().nullish(),
   }),
