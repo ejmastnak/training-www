@@ -1,0 +1,100 @@
+name: "Ankle Maintenance"
+phases:
+  - name: "Ankle Resistance Band Combo"
+    payload:
+      - name: "Ankle ABCs"
+        sets: 1
+        reps: 1
+        suffix: rep es
+      - name: "Ankle Flexion and Extension"
+        sets: 1
+        reps: 16
+        suffix: reps es
+      - name: "Ankle Rotation with Hip Adduction"
+        sets: 1
+        reps: 16
+        suffix: reps es
+      - name: "Ankle Rotation with Hip Abduction"
+        sets: 1
+        reps: 16
+        suffix: reps es
+
+  - name: "Ankle Balance Board Combo"
+    payload:
+      - name: "Double-Leg Supported Balance on BB"
+        sets: 2
+        reps: 30
+        suffix: seconds
+      - name: "Double-Leg Supported Ankle Flexion and Extension on BB"
+        sets: 1
+        reps: 30
+        suffix: reps
+      - name: "Double-Leg Supported Ankle Inversion and Eversion on BB"
+        sets: 1
+        reps: 30
+        suffix: reps
+      - name: "Double-Leg Supported Around the Clock BB Rolls"
+        sets: 1
+        reps: 15
+        suffix: reps es
+      - name: "Double-Leg Balance on BB"
+        sets: 2
+        reps: 30
+        suffix: seconds
+
+        # Single-Leg
+      - name: "Single-Leg Supported Balance on BB"
+        sets: 2
+        reps: 30
+        suffix: seconds es
+      - name: "Single-Leg Supported Ankle Flexion and Extension on BB"
+        sets: 1
+        reps: 22
+        suffix: reps es
+      - name: "Single-Leg Supported Ankle Inversion and Eversion on BB"
+        sets: 1
+        reps: 22
+        suffix: reps es
+      - name: "Single-Leg Supported Around the Clock BB Rolls"
+        sets: 1
+        reps: 10
+        suffix: reps es
+      - name: "Single-Leg Balance on BB"
+        sets: 2
+        reps: 30
+        suffix: seconds es
+
+  - name: "Ankle Proprioception Exercises"
+    payload:
+      - name: "Single-Leg Balance on Airex Pad"
+        sets: 2
+        reps: 30
+        suffix: seconds es
+      - name: "Sagittal Plane Ankle Wobbling on Balance Board"
+        sets: 1
+        reps: 22
+        suffix: reps es
+      - name: "Frontal Plane Ankle Wobbling on Balance Board"
+        sets: 1
+        reps: 22
+        suffix: reps es
+      - name: "Single-Leg Balance on Balance Board"
+        sets: 2
+        reps: 30
+        suffix: seconds es
+      - name: "Alternating Single-Leg Balance to Calf Raise on Airex Pad"
+        sets: 2
+        reps: 10
+        suffix: reps total
+      - name: "Step-Up to Single-Leg Balance"
+        sets: 2
+        reps: 5
+        suffix: reps es
+      - name: "Knee Grab to RDL on Bosu Blue Side"
+        sets: 2
+        reps: 5
+        suffix: reps es
+      - name: "Calf Stretch Against Wall"
+        sets: 1
+        reps: 30
+        suffix: seconds

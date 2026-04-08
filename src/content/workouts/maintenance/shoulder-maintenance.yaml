@@ -1,0 +1,173 @@
+name: "Shoulder Maintenance"
+phases:
+  - name: "Shoulder Combo on Foam Roller"
+    payload:
+      - name: "Shoulder Press-Up with Circle"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Shoulder Press-Up with Rotation"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Chicken Wings"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Open and Close at Stomach"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Shoulder Press-Up"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Shoulder Press-Up to Overhead Stretch"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "90 Degree Elbow Circles"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Shoulder Snow Angels"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Robot Range of Motion Exercise"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Shoulder PNF on Foam Roller"
+        sets: 1
+        reps: 12
+        suffix: reps es
+      - name: "Reverse Shoulder PNF on Foam Roller"
+        sets: 1
+        reps: 12
+        suffix: reps es
+      - name: "Large Shoulder T-Circles"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Small Shoulder T-Circles"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Straight Elbow Circles"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Prayers to Overhead Stretch"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Prayers to Overhead Stretch to Snow Angel"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Shoulder Rotator Stretch with Foam Roller"
+        sets: 1
+        reps: 22
+        suffix: seconds es
+
+  - name: "Shoulder Stretches"
+    payload:
+      - name: "Deltoid Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Pectoralis Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds
+      - name: "Biceps and Pectoralis Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds
+      - name: "Levator Scapulae Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Lat Tendon Foam Rolling"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Teres Minor Foam Rolling"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Active Lat Foam Rolling"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Rhomboid Foam Rolling"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Pec Tendon Foam Rolling"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+
+  - name: "Shoulder Strengthening Exercises"
+    payload:
+      - name: "Seated Sagittal Shoulder Rotators"
+        sets: 1
+        reps: 16
+        suffix: reps es
+      - name: "Seated Frontal Shoulder Rotators"
+        sets: 1
+        reps: 16
+        suffix: reps es
+      - name: "Standing Bent-Arm Shoulder Rotators with ABD"
+        sets: 1
+        reps: 16
+        suffix: reps es
+      - name: "Standing Shoulder PNFs with ABD"
+        sets: 1
+        reps: 16
+        suffix: reps es
+      - name: "Standing Bent-Arm Shoulder Rotators with ADD"
+        sets: 1
+        reps: 16
+        suffix: reps es
+      - name: "Standing Triceps Pull-Down with Palm Down"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Standing Rhomboid Cable Pulls"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Standing Triceps Pull-Down with Palm Up"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Standing Rhomboid Cable Pulls"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Alternating Single Arm Lat Cable Pull"
+        sets: 1
+        reps: 16
+        suffix: reps total
+      - name: "Standing Double Arm Cable Row"
+        sets: 1
+        reps: 16
+        suffix: reps
+
+  - name: "Playground Ball Shoulder Warm-Up"
+    payload:
+      - name: "Forward Ball Circles Ball Against Wall"
+        sets: 1
+        reps: 16
+        suffix: reps es
+      - name: "Lateral Ball Circles Against Wall"
+        sets: 1
+        reps: 16
+        suffix: reps es
+      - name: "Forward Ball Roll-Ups to Lat Stretch"
+        sets: 1
+        reps: 3
+        suffix: reps es

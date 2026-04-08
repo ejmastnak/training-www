@@ -1,0 +1,50 @@
+name: "Wrist Maintenance"
+phases:
+  - name: "Wrist Strengthening Exercises"
+    payload:
+      - name: "Wrist Curls"
+        sets: 1
+        reps: 3
+        suffix: reps
+      - name: "Golf Club Raises on Table"
+        sets: 1
+        reps: 8
+        suffix: reps es
+      - name: "Golf Club Raises off Table"
+        sets: 1
+        reps: 8
+        suffix: reps es
+      - name: "Backward Golf Club Raises"
+        sets: 1
+        reps: 8
+        suffix: reps es
+
+  - name: "Wrist Stretches"
+    payload:
+      - name: "Standing Wrist Flexor Stretch"
+        sets: 1
+        reps: 15
+        suffix: seconds es
+      - name: "Standing Wrist Extensor Stretch"
+        sets: 1
+        reps: 15
+        suffix: seconds es
+      - name: "Standing Supinator Stretch"
+        sets: 1
+        reps: 15
+        suffix: seconds es
+
+  - name: "Manual Mobilization"
+    payload:
+      - name: "Ulnar-Radial Channel on Dorsal Side"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Common Flexor Tendon Area"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Common Extensor Tendon Area"
+        sets: 1
+        reps: 30
+        suffix: seconds es

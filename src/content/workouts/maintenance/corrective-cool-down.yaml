@@ -1,0 +1,62 @@
+name: "Corrective Cool-Down"
+payload:
+  - name: "SL ADD Bridge"
+    sets: 1
+    reps: 30
+    suffix: seconds es
+  - name: "SL ADD Bridge With Golf Chop"
+    sets: 2
+    reps: 6
+    suffix: reps total
+  - name: "Double Leg Hamstring Curl"
+    sets: 1
+    reps: 15
+    suffix: reps
+  - name: "Single-Leg Hamstring Curl"
+    sets: 2
+    reps: 5
+    suffix: reps es
+  - name: "Single-Leg Hamstring Curl With Single-Leg Hip Thrust"
+    sets: 1
+    reps: 5
+    suffix: reps es
+  - name: "Roadrunners"
+    sets: 1
+    reps: 30
+    suffix: seconds
+  - name: "Bent-Leg Hang and Twist"
+    sets: 1
+    reps: 12
+    suffix: reps total
+  - name: "Hanging Toe Crossovers"
+    sets: 1
+    reps: 16
+    suffix: reps total
+  - name: "Hanging Toe-Ups"
+    sets: 1
+    reps: 16
+    suffix: reps total
+  - name: "Windshield Wipers"
+    sets: 1
+    reps: 12
+    suffix: reps total
+  - name: "Exercise Ball Walks"
+    sets: 1
+    reps: 20
+    suffix: yards
+  - name: "Exercise Ball Squats"
+    sets: 1
+    reps: 5
+    suffix: reps
+  - name: "Double EB Bridge"
+    sets: 1
+    reps: 30
+    suffix: seconds
+  - name: "Roll-outs"
+    sets: 1
+    reps: 5
+    suffix: reps
+  - name: "Walking On Foam Roller"
+    sets: 2
+    reps: 20
+    suffix: yards

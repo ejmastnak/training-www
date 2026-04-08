@@ -1,0 +1,27 @@
+name: "Neck Maintenance"
+phases:
+  - name: "Neck Strengthening Exercises"
+    payload:
+      - name: "Frontal Ball Pushes Against Wall"
+        sets: 1
+        reps: 8
+        suffix: reps es
+      - name: "Forward Ball Pushes Against Wall"
+        sets: 1
+        reps: 8
+        suffix: reps
+      - name: "Backward Ball Pushes Against Wall"
+        sets: 1
+        reps: 8
+        suffix: reps
+
+  - name: "Neck Stretches"
+    payload:
+      - name: "Sternocleidomastoid Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Levator Scapulae Neck Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es

@@ -1,0 +1,281 @@
+name: "Friday's Workout"
+phases:
+  - name: "Supine Exercises"
+    payload:
+      - name: "Bicycles"
+        sets: 1
+        reps: 50
+        suffix: reps total
+      - name: "Reverse Crunch"
+        sets: 1
+        reps: 22
+        suffix: reps
+      - name: "Crunch"
+        sets: 1
+        reps: 22
+        suffix: reps
+      - name: "V-Hold"
+        sets: 1
+        reps: 22
+        suffix: seconds
+      - name: "V-Ups"
+        sets: 1
+        reps: 16
+        suffix: reps
+      - name: "Sky Crunch"
+        sets: 1
+        reps: 16
+        suffix: reps
+      - name: "Oblique Sky Crunch"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "V-Twist"
+        sets: 1
+        reps: 22
+        suffix: reps total
+      - name: "Supine Golf Chops"
+        sets: 1
+        reps: 6
+        suffix: reps es
+      - name: "Side Crunch"
+        sets: 1
+        reps: 16
+        suffix: reps es
+      - name: "Supine Pelvic Tilts"
+        sets: 1
+        reps: 8
+        suffix: reps
+      - name: "IT Band Staggers"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Supine Static Glute Bridge"
+        sets: 1
+        reps: 22
+        suffix: seconds
+      - name: "Supine Glute Bridge Raises"
+        sets: 1
+        reps: 12
+        suffix: reps 
+      - name: "Glute Bridge Alternating Leg Extensions"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Supine Single-Leg Glute Bridge Raises"
+        sets: 1
+        reps: 6
+        suffix: reps es
+      - name: "Supine Toe-Ups"
+        sets: 1
+        reps: 22
+        suffix: reps total
+      - name: "Supine Toe Crossovers"
+        sets: 1
+        reps: 22
+        suffix: reps total
+      - name: "Supine Exercise Ball Rolls"
+        sets: 1
+        reps: 16
+        suffix: reps total
+      - name: "Supine Exercise Ball Claps"
+        sets: 1
+        reps: 16
+        suffix: reps total
+      - name: "Supine Scorpion Crossovers"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Opposite Elbow to Opposite Knee"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Sit-Up to Toe Touch"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Lateral Bridge with Hip Abduction"
+        sets: 1
+        reps: 22
+        suffix: seconds
+
+  - name: "Hip Combo"
+    payload:
+      - name: "Lateral Knee-Ups"
+        sets: 1
+        reps: 12
+        suffix: reps es
+      - name: "Lateral Knee-Ups to Hip Abduction"
+        sets: 1
+        reps: 12
+        suffix: reps es
+      - name: "Lateral Hip Abduction"
+        sets: 1
+        reps: 12
+        suffix: reps es
+      - name: "Lateral Hip Adduction"
+        sets: 1
+        reps: 12
+        suffix: reps es
+      - name: "Lateral Straight-Leg Swings"
+        sets: 1
+        reps: 12
+        suffix: reps es
+      - name: "Lateral Hip Rotations"
+        sets: 1
+        reps: 12
+        suffix: reps es
+      - name: "Medial Hamstring Kick-Back"
+        sets: 1
+        reps: 12
+        suffix: reps es
+
+  - name: "Prone Exercises"
+    payload:
+      - name: "Supermans and Cobras"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Prone Quadruplets"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Prone Supermans"
+        sets: 1
+        reps: 6
+        suffix: reps
+      - name: "Cobra Pose"
+        sets: 1
+        reps: 16
+        suffix: seconds
+      - name: "Low-Back Stretch"
+        sets: 1
+        reps: 16
+        suffix: seconds
+      - name: "Cat Stretch"
+        sets: 1
+        reps: 16
+        suffix: seconds
+      - name: "Cats and Dogs"
+        sets: 1
+        reps: 12
+        suffix: reps
+      - name: "Kneeling Quadruplets"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Kneeling Opposite Elbow to Opposite Knee"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Kneeling Hip Abduction to Extension"
+        sets: 1
+        reps: 6
+        suffix: reps es
+      - name: "90 Degree Prone Quadruplet"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Prone Single-Leg Hip Extensions"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Prone Toe Crossovers"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Prone Scorpion Crossovers"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Static Elbow Bridge"
+        sets: 1
+        reps: 22
+        suffix: seconds
+      - name: "Elbow Bridge Quadruplets"
+        sets: 1
+        reps: 8
+        suffix: reps total
+
+  - name: "Static Stretches"
+    payload:
+      - name: "Glute Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Hamstring Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Lateral Quad Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "McKenzie Press"
+        sets: 1
+        reps: 30
+        suffix: seconds
+      - name: "Cat Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds
+      - name: "90 Degree Hip Flexor Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Piriformis Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Butterfly Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Straight-Leg Inner Thigh Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Straight-Leg Inner Thigh Stretch with Toe Touch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Seated Spinal Twist Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Spiderman Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Quad Stretch on Table"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Kneeling Psoas Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "IT Band Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Calf Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Standing Lateral Lat Stretch"
+        sets: 1
+        reps: 30
+        suffix: seconds es
+      - name: "Standing Lateral Pelvic Tilts"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Standing Clockwise Hip Circles"
+        sets: 1
+        reps: 8
+        suffix: reps
+      - name: "Standing Counter-Clockwise Hip Circles"
+        sets: 1
+        reps: 8
+        suffix: reps
