@@ -9,4 +9,9 @@ export default defineConfig({
     },
   },
   integrations: [],
+  image: {
+    service: {
+      entrypoint: 'astro/assets/services/noop'
+    }
+  }
 });
