@@ -69,7 +69,7 @@ phases:
         sets: 2
         reps: 20
         suffix: yards es
-      - name: "Single RDL to Overhead Press on Bosu"
+      - name: "Single-Leg RDL to Overhead Press on Bosu"
         sets: 2
         reps: 8
         suffix: reps es

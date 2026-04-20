@@ -27,6 +27,10 @@ phases:
         sets: 1
         reps: 1
         suffix: set
+      - name: "Rhomboid Pull-Ups"
+        sets: 1
+        reps: 15
+        suffix: reps
 
   - name: "Abs"
     payload:
@@ -50,10 +54,6 @@ phases:
         sets: 1
         reps: 30
         suffix: reps total
-      - name: "Rhomboid Pull-Ups"
-        sets: 1
-        reps: 15
-        suffix: reps
 
   - name: "Olympic Lifting Combo"
     payload:
@@ -87,8 +87,8 @@ phases:
         sets: 1
         reps: 5
         suffix: "reps"
-      - type: "combo"
-        name: "Multidirectional Lunge Combo"
+      - name: "Multidirectional Lunge Combo"
+        combo: true
         sets: 1
         reps: 2
         suffix: "set"

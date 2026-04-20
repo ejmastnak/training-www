@@ -94,8 +94,8 @@ phases:
         sets: 1
         reps: 5
         suffix: "reps"
-      - type: "combo"
-        name: "Multidirectional Lunge Combo"
+      - name: "Multidirectional Lunge Combo"
+        combo: true
         sets: 1
         reps: 2
         suffix: "set"
@@ -148,7 +148,7 @@ phases:
 
   - name: "Off-Bench Combo"
     payload:
-      - name: "Nording Hamstring Crunch"
+      - name: "Nordic Hamstring Crunch"
         sets: 3
         reps: 8-6-8
         suffix: reps

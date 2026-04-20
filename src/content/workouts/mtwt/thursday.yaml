@@ -113,7 +113,7 @@ phases:
         reps: 30
         suffix: seconds
 
-  - name: "Shoulders"
+  - name: "Pull-Ups, Biceps, Shoulders"
     payload:
       - name: "Neutral Grip Pull-Ups"
         sets: 1
@@ -144,9 +144,9 @@ phases:
         reps: 12
         suffix: reps
 
-  - name: "Resistance Band"
+  - name: "Resistance Band Hip Exercises"
     payload:
-      - name: "Hip Flexion with Resistance Band"
+      - name: "Supine Toe-Ups with Resistance Band"
         sets: 1
         reps: 22
         suffix: reps total

@@ -1,0 +1,311 @@
+name: "Summer 2025 Warm-Up"
+type: workout
+phases:
+  - name: "Warm-Up"
+    payload:
+      - name: "Bike"
+        sets: 1
+        reps: 5
+        suffix: "minutes"
+      - name: "Terminal Knee Extensions"
+        sets: 1
+        reps: 12
+        suffix: "reps es"
+      - name: "Foam Roller Walks"
+        sets: 1
+        reps: 3
+        suffix: "reps es"
+
+  - name: "Ankle Balance Board Combo"
+    payload:
+      - type: "exercise"
+        name: "DL Supported Balance on BB"
+        sets: 2
+        reps: 30
+        suffix: "seconds"
+      - type: "exercise"
+        name: "DL Supported Ankle Flexion and Extension on BB"
+        sets: 1
+        reps: 30
+        suffix: "reps"
+      - type: "exercise"
+        name: "DL Supported Ankle Inversion and Eversion on BB"
+        sets: 1
+        reps: 30
+        suffix: "reps"
+      - type: "exercise"
+        name: "DL Supported Around the Clock BB Rolls"
+        sets: 1
+        reps: 15
+        suffix: "reps es"
+      - type: "exercise"
+        name: "DL Balance on BB"
+        sets: 2
+        reps: 30
+        suffix: "seconds"
+      - type: "exercise"
+        name: "Single-Leg Supported Balance on BB"
+        sets: 2
+        reps: 30
+        suffix: "seconds es"
+      - type: "exercise"
+        name: "Single-Leg Supported Ankle Flexion and Extension on BB"
+        sets: 1
+        reps: 22
+        suffix: "reps es"
+      - type: "exercise"
+        name: "Single-Leg Supported Ankle Inversion and Eversion on BB"
+        sets: 1
+        reps: 22
+        suffix: "reps es"
+      - type: "exercise"
+        name: "Single-Leg Supported Around the Clock BB Rolls"
+        sets: 1
+        reps: 10
+        suffix: "reps es"
+      - type: "exercise"
+        name: "Single-Leg Balance on BB"
+        sets: 2
+        reps: 30
+        suffix: "seconds es"
+
+  - name: "Trampoline Combo"
+    payload:
+      - name: "Tap, tap, squat"
+        sets: 1
+        reps: 8
+        suffix: "reps"
+      - name: "Tap, tap, 45-degrees squat"
+        sets: 1
+        reps: 8
+        suffix: "reps total"
+      - name: "Groin stretch kick-outs"
+        sets: 1
+        reps: 16
+        suffix: "reps total"
+      - name: "Hamstring stretch kick-outs"
+        sets: 1
+        reps: 16
+        suffix: "reps total"
+      - name: "Tap, tap, 180 squat"
+        sets: 1
+        reps: 8
+        suffix: "reps total"
+      - name: "Single-Leg RDL to plyo jump"
+        sets: 1
+        reps: 8
+        suffix: "reps total"
+
+
+  - name: "Bosu Agility Combo"
+    payload:
+      - name: "Skater bounding"
+        sets: 1
+        reps: 22
+        suffix: "reps total"
+      - name: "SL center tap to DL landing"
+        sets: 1
+        reps: 12
+        suffix: "reps total"
+      - name: "SL center tap to alternating split lunge"
+        sets: 1
+        reps: 12
+        suffix: "reps total"
+      - name: "Asymmetrical DL jump"
+        sets: 1
+        reps: 4
+        suffix: "reps es"
+      - name: "Multidirectional footwork combo"
+        sets: 1
+        reps: 4
+        suffix: "reps"
+
+  - name: "Gymnastics Mat Combo"
+    payload:
+      - name: "DL forward hops"
+        sets: 1
+        reps: 2
+        suffix: "lengths"
+      - name: "SL forward hops"
+        sets: 1
+        reps: 1
+        suffix: "length es"
+      - name: "DL zig-zag hops"
+        sets: 1
+        reps: 2
+        suffix: "lengths"
+      - name: "SL zig-zag hops"
+        sets: 1
+        reps: 1
+        suffix: "length es"
+      - name: "DL frontal-plane zig-zag hops"
+        sets: 1
+        reps: 2
+        suffix: "lengths"
+      - name: "SL frontal-plane zig-zag hops"
+        sets: 1
+        reps: 1
+        suffix: "length es"
+      - name: "Helicopter kocks"
+        sets: 2
+        reps: 4
+        suffix: "reps total"
+      - name: "Dynamic plyo lunge to split"
+        sets: 2
+        reps: 4
+        suffix: "reps total"
+
+  - name: "Gymnastics Mat Pop-Up Combo"
+    payload:
+      - name: "Pop-up to DL tap to DL landing"
+        sets: 1
+        reps: 2
+        suffix: "reps"
+      - name: "Pop-up to DL tap to SL landing"
+        sets: 1
+        reps: 2
+        suffix: "reps es"
+      - name: "180 DL tap to DL landing"
+        sets: 1
+        reps: 2
+        suffix: "reps each way"
+      - name: "180 DL tap to SL landing"
+        sets: 1
+        reps: 4
+        suffix: "reps total each way"
+      - name: "Frontal plane DL tap to SL landing"
+        sets: 1
+        reps: 8
+        suffix: "reps total"
+
+  - name: "Hurdle Dynamic Stretches Combo"
+    payload:
+      - name: "High kicks over hurdles"
+        sets: 1
+        reps: 4
+        suffix: "lengths total"
+      - name: "Open gate to transverse turn"
+        sets: 1
+        reps: 4
+        suffix: "lengths total"
+      - name: "Reverse high kicks over hurdles"
+        sets: 1
+        reps: 4
+        suffix: "lengths total"
+
+  - name: "Ropes"
+    payload:
+      - name: "Alternating, sagittal plane"
+        sets: 1
+        reps: 12
+        suffix: "seconds"
+      - name: "Synchronized, frontal plane"
+        sets: 1
+        reps: 15
+        suffix: "seconds"
+      - name: "Synchronized, sagittal plane"
+        sets: 1
+        reps: 15
+        suffix: "seconds"
+
+  - name: "Hurdle Agility Combo"
+    payload:
+      - name: "Forward, no crossovers"
+        sets: 1
+        reps: 2
+        suffix: "reps each way"
+      - name: "Forward with crossovers"
+        sets: 1
+        reps: 2
+        suffix: "reps each way"
+      - name: "Forward with DL hops"
+        sets: 1
+        reps: 1
+        suffix: "reps each way"
+      - name: "Forward with SL hops"
+        sets: 1
+        reps: 1
+        suffix: "rep each side each way"
+
+  - name: "Tic-Tacs"
+    payload:
+      - name: "DL tic-tacs"
+        sets: 1
+        reps: 20
+        suffix: "seconds"
+      - name: "SL tic-tacs"
+        sets: 1
+        reps: 20
+        suffix: "seconds eas"
+
+  - name: "Gymnastics Mat Resistance Band Combo"
+    payload:
+      - name: "Frontal plane skater bounding"
+        sets: 1
+        reps: 8
+        suffix: "reps es"
+      - name: "SL forward skips with hip extension and hand pedalling"
+        sets: 1
+        reps: 2
+        suffix: "reps es"
+      - name: "Transverse split lunge to high knees acceleration"
+        sets: 1
+        reps: 2
+        suffix: "reps es"
+
+  - name: "Resistance Band Footwork Combo"
+    payload:
+      - name: "Forward accelerations to high knee footwork"
+        sets: 1
+        reps: 4
+        suffix: "reps es"
+      - name: "High kicks"
+        sets: 1
+        reps: 8
+        suffix: "reps es"
+      - name: "Open gate to backwards 45-degree shuffle"
+        sets: 1
+        reps: 4
+        suffix: "reps es"
+      - name: "Reverse high kicks"
+        sets: 1
+        reps: 8
+        suffix: "reps es"
+      - name: "Multidirectional footwork with vest"
+        sets: 1
+        reps: 4
+        suffix: "reps total"
+
+  - name: "Sled Combo"
+    payload:
+      - name: "Slow, emphasize form, high grip"
+        sets: 2
+        reps: 20
+        suffix: "yards"
+      - name: "Fast, low grip"
+        sets: 2
+        reps: 20
+        suffix: "yards"
+      - name: "Fast, high grip, 1233&44& count"
+        sets: 2
+        reps: 20
+        suffix: "yards"
+      - name: "Sagitall plane sled drags"
+        sets: 2
+        reps: 20
+        suffix: "yards es"
+
+  - name: "Skip Combo"
+    payload:
+      - name: "A-Skips"
+        sets: 2
+        reps: 20
+        suffix: "yards"
+      - name: "B-Skips"
+        sets: 2
+        reps: 20
+        suffix: "yards"
+      - name: "C-Skips"
+        sets: 2
+        reps: 20
+        suffix: "yards"
