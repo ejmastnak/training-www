@@ -17,19 +17,22 @@ const { workout } = Astro.props;
 <BaseLayout title={workout.data.name} className="text-blue-950">
   <h1 class="text-4xl text-center underline">{workout.data.name}</h1>
 
+  <!-- Single payload, no phases -->
   {workout.data.payload && (
   <ol class="mt-8 flex flex-col gap-y-2 border border-2 border-blue-900 list-decimal pl-10 pr-4 py-4 max-w-2xl mx-auto">
     {workout.data.payload.map((item) => (
     <li>
       {item.name} 
-      {(typeof item.reps === "number" && item.sets > 1) && <span>{item.sets} x </span> }
-      <span class="ml-1">{item.reps} {item.suffix}</span>
+      <span class="font-medium">
+        {(typeof item.reps === "number" && item.sets > 1) && <span>{item.sets} x </span> }
+        <span class="ml-1">{item.reps} {item.suffix}</span></span>
     </li>
     ))}
   </ol>
   )
   }
 
+  <!-- Workout with phases -->
   {workout.data.phases && (
   <div class="mt-10 gap-8 max-w-2xl mx-auto">
     {workout.data.phases.map((phase, idx) => (
@@ -39,8 +42,10 @@ const { workout } = Astro.props;
         {phase.payload.map((item) => (
         <li>
           {item.name} 
-          {(typeof item.reps === "number" && item.sets > 1) && <span>{item.sets} x </span> }
-          <span class="ml-1">{item.reps} {item.suffix}</span>
+          <span class="font-medium">
+            {(typeof item.reps === "number" && item.sets > 1) && <span>{item.sets} x </span> }
+            <span class="ml-1">{item.reps} {item.suffix}</span>
+          </span>
         </li>
         ))}
       </ol>
