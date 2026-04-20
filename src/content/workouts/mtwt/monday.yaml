@@ -1,4 +1,4 @@
-name: "Eli Monday Workout"
+name: "Monday's Workout"
 idx: 1
 phases:
   - name: "Warm-Up"
@@ -145,7 +145,10 @@ phases:
         sets: 1
         reps: 8
         suffix: reps
-      - name: "Nordic Hamstring Crunch"
+
+  - name: "Off-Bench Combo"
+    payload:
+      - name: "Nording Hamstring Crunch"
         sets: 3
         reps: 8-6-8
         suffix: reps
@@ -161,6 +164,9 @@ phases:
         sets: 1
         reps: 12
         suffix: reps es
+
+  - name: "Cool-Down"
+    payload:
       - name: "Decompression Combo"
         combo: true
         sets: 1
@@ -170,9 +176,6 @@ phases:
         sets: 1
         reps: 30
         suffix: seconds
-
-  - name: "Cool-Down"
-    payload:
       - name: "Lower Body Foam Rolling"
         combo: true
         sets: 1

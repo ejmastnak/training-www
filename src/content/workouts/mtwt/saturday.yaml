@@ -1,5 +1,6 @@
-name: "Eli Saturday Workout"
-idx: 5
+name: "Saturday's Workout"
+category: "MTWT Workouts"
+idx: 6
 phases:
   - name: "Warm-Up"
     payload:
@@ -49,22 +50,13 @@ phases:
         sets: 1
         reps: 8
         suffix: reps total
-      - name: "Push-Up to Quadruplet"
+      - name: "Push-Up to Quadruplet Combo"
         sets: 1
-        reps: 1
-        suffix: rep es
-      - name: "Prone Leg Swing to Toe Touch"
-        sets: 1
-        reps: 1
-        suffix: rep es
-      - name: "Spiderman Stretch"
-        sets: 1
-        reps: 1
-        suffix: rep es
-      - name: "High Jump to Pull-Up"
-        sets: 1
-        reps: 1
-        suffix: rep
+        reps: 10
+        suffix: reps total
+
+  - name: "Lift 2"
+    payload:
       - name: "Static Supine Glute Bridge"
         sets: 1
         reps: 16
@@ -97,6 +89,9 @@ phases:
         sets: 2
         reps: 8
         suffix: reps es
+
+  - name: "Resistance Band"
+    payload:
       - name: "Forward Resistance Band Walking"
         sets: 1
         reps: 22
@@ -125,6 +120,9 @@ phases:
         sets: 2
         reps: 20
         suffix: yards es
+
+  - name: "Hang and Twist"
+    payload:
       - name: "Bent-Leg Hang and Twist"
         sets: 1
         reps: 12
@@ -141,6 +139,9 @@ phases:
         sets: 1
         reps: 12
         suffix: reps total
+
+  - name: "Cool-Down"
+    payload:
       - name: "Balance Board Rolls"
         sets: 1
         reps: 30
@@ -161,9 +162,6 @@ phases:
         sets: 1
         reps: 30
         suffix: seconds
-
-  - name: "Cool-Down"
-    payload:
       - name: "Bike"
         sets: 1
         reps: 10

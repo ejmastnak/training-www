@@ -1,5 +1,6 @@
-name: "Eli Thursday Workout Summer 2019"
-idx: 4
+name: "Dynamic Thursday's Workout (Summer 2019)"
+category: "MTWT Workouts"
+idx: 5
 phases:
   - name: "Warm-Up"
     payload:
@@ -100,6 +101,9 @@ phases:
         sets: 1
         reps: 30
         suffix: seconds
+
+  - name: "Footwork"
+    payload:
       - name: "Hurdle Bounding Footwork (see video)"
         sets: 1
         reps: 4
@@ -111,6 +115,10 @@ phases:
 
   - name: "Cool-Down"
     payload:
+      - name: "Stability Bridge"
+        sets: 1
+        reps: 30
+        suffix: seconds
       - name: "Bike"
         sets: 1
         reps: 5

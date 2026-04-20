@@ -1,4 +1,5 @@
-name: "Eli Thursday Workout"
+name: "Thursday's Workout"
+category: "MTWT Workouts"
 idx: 4
 phases:
   - name: "Warm-Up"
@@ -54,7 +55,7 @@ phases:
         reps: 16
         suffix: reps es
 
-  - name: "Lift"
+  - name: "Chest"
     payload:
       - name: "Inclined Chest Press"
         sets: 3
@@ -64,6 +65,9 @@ phases:
         sets: 2
         reps: 8
         suffix: reps total
+
+  - name: "Lower Body"
+    payload:
       - name: "Forward Lunges"
         sets: 2
         reps: 20
@@ -108,6 +112,9 @@ phases:
         sets: 1
         reps: 30
         suffix: seconds
+
+  - name: "Shoulders"
+    payload:
       - name: "Neutral Grip Pull-Ups"
         sets: 1
         reps: 12
@@ -136,6 +143,9 @@ phases:
         sets: 2
         reps: 12
         suffix: reps
+
+  - name: "Resistance Band"
+    payload:
       - name: "Hip Flexion with Resistance Band"
         sets: 1
         reps: 22
@@ -168,6 +178,9 @@ phases:
         sets: 1
         reps: 12
         suffix: reps total
+
+  - name: "Ankles"
+    payload:
       - name: "Ankle ABCs"
         sets: 1
         reps: 1
@@ -184,13 +197,13 @@ phases:
         sets: 1
         reps: 16
         suffix: reps es
+
+  - name: "Cool-Down"
+    payload:
       - name: "Stability Bridge"
         sets: 1
         reps: 30
         suffix: seconds
-
-  - name: "Cool-Down"
-    payload:
       - name: "Bike"
         sets: 1
         reps: 5

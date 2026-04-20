@@ -1,4 +1,5 @@
-name: "Eli Tuesday Workout"
+name: "Tuesday's Workout"
+category: "MTWT Workouts"
 idx: 2
 phases:
   - name: "Warm-Up"
@@ -62,7 +63,7 @@ phases:
         reps: 22
         suffix: reps es
 
-  - name: "Lift"
+  - name: "Lift: Press and Barbell"
     payload:
       - name: "Chest Press"
         sets: 3
@@ -80,6 +81,9 @@ phases:
         sets: 2
         reps: 8
         suffix: reps
+
+  - name: "Triceps"
+    payload:
       - name: "Overhead Triceps Extensions"
         sets: 1
         reps: 12
@@ -100,6 +104,9 @@ phases:
         sets: 2
         reps: 8
         suffix: reps
+
+  - name: "Lift: Shoulders and Obliques"
+    payload:
       - name: "Reverse Flyes"
         sets: 2
         reps: 12

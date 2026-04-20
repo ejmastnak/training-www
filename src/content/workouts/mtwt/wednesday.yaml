@@ -1,4 +1,5 @@
-name: "Eli Wednesday Workout"
+name: "Wednesday's Workout"
+category: "MTWT Workouts"
 idx: 3
 phases:
   - name: "Warm-Up"
@@ -107,7 +108,7 @@ phases:
         reps: 5
         suffix: "rep"
 
-  - name: "Lift"
+  - name: "Squat and Hamstrings"
     payload:
       - name: "Back Squat"
         sets: 1
@@ -129,6 +130,9 @@ phases:
         sets: 1
         reps: 30
         suffix: seconds
+
+  - name: "Single-Leg Exercises"
+    payload:
       - name: "Single-Leg Dumbbell Row in RDL Position"
         sets: 2
         reps: 8
@@ -141,10 +145,20 @@ phases:
         sets: 2
         reps: 8
         suffix: reps es
+
+  - name: "Barbell"
+    payload:
       - name: "Deadlift"
         sets: 2
         reps: 5
         suffix: reps
+      - name: "Calves"
+        sets: 2
+        reps: 5
+        suffix: reps
+
+  - name: "Adductors and Abductors"
+    payload:
       - name: "Adductor Bridge on EB"
         sets: 1
         reps: 22
@@ -169,6 +183,9 @@ phases:
         sets: 1
         reps: 22
         suffix: reps es
+
+  - name: "Cool-Down"
+    payload:
       - name: "Decompression Combo"
         combo: true
         sets: 1
@@ -178,9 +195,6 @@ phases:
         sets: 1
         reps: 30
         suffix: seconds
-
-  - name: "Cool-Down"
-    payload:
       - name: "Bike"
         sets: 1
         reps: 10
