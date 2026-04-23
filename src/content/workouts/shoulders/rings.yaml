@@ -1,0 +1,137 @@
+name: "Rings Conditioning"
+type: workout
+payload:
+
+  - name: "Warm-Up"
+    payload:
+      - name: "Ball Walks"
+        sets: 2
+        reps: 20
+        suffix: "yards"
+      - name: "Foam Roller Walks"
+        sets: 2
+        reps: 20
+        suffix: "yards"
+      - name: "Shoulder Rotator Warm-Up"
+        combo: true
+        sets: 1
+        reps: 1
+        suffix: "set"
+      - name: "Standing Rhomboid Pull-Ups"
+        sets: 1
+        reps: 12
+        suffix: "reps"
+
+  - name: "Rings"
+    payload:
+      - name: "Ball Pass and Rope Swing Combo"
+        sets: 1
+        reps: 1
+        suffix: "set"
+      - name: "Pull-Up to Static Hold to Static L-Sit"
+        sets: 3
+        reps: 3
+        suffix: "reps"
+
+  - name: "Chest-Flye Push-Up Combo"
+    payload:
+      - type: "exercise"
+        name: "Ring Chest Flye Push-Up on Exercise Ball"
+        sets: 1
+        reps: 8
+        qualifier: "reps hlr"
+      - type: "exercise"
+        name: "Leaning Rhomboid Cable Pull-Ups"
+        sets: 1
+        reps: 12
+        qualifier: "reps hlr"
+      - type: "exercise"
+        name: "Seated L-Sit Cable Row"
+        sets: 1
+        reps: 10
+        qualifier: "reps hlr"
+      - type: "exercise"
+        name: "Ring Chest Flye Push-Up on Exercise Ball"
+        sets: 1
+        reps: 6
+        qualifier: "reps hlr"
+      - type: "exercise"
+        name: "Leaning Rhomboid Cable Pull-Ups"
+        sets: 1
+        reps: 12
+        qualifier: "reps hlr"
+      - type: "exercise"
+        name: "Seated L-Sit Cable Row"
+        sets: 1
+        reps: 10
+        qualifier: "reps hlr"
+      - type: "exercise"
+        name: "Seated L-Sit Static Arm Hold"
+        sets: 1
+        reps: 16
+        qualifier: "seconds"
+      - type: "exercise"
+        name: "Ring Chest Flye Push-Up on Exercise Ball"
+        sets: 1
+        reps: 8
+        qualifier: "reps hlr"
+
+  - name: "Single-Arm Push-Up and Reverse Flyes"
+    payload:
+      - name: "Assisted Single Arm Prone Push-Up"
+        sets: 1
+        reps: 5
+        suffix: "reps es"
+      - name: "Bent-Over Reverse Flyes"
+        sets: 1
+        reps: 12
+        suffix: "reps"
+
+  - name: "Reverse Flyes and Superman Exercises"
+    payload:
+      - name: "Prone Superman Reverse Flyes on Bosu"
+        sets: 1
+        reps: 10
+        suffix: "reps hlr"
+      - name: "Bosu Supermans and Cobras"
+        sets: 2
+        reps: 5
+        suffix: "reps"
+      - name: "Bosu Superman Ball Tosses"
+        sets: 2
+        reps: 5
+        suffix: "reps"
+
+  - name: "Shoulder Proprioception Exercises"
+    payload:
+      - name: "Kneeling 90-90 Cable Machine Row on Bosu"
+        sets: 1
+        reps: 10
+        suffix: "hlr"
+      - name: "Single Arm Body Blade PNF on Bosu"
+        sets: 2
+        reps: 3
+        suffix: "reps es"
+      - name: "Static Straight-Body Hold on Rings"
+        sets: 2
+        reps: 8
+        suffix: "seconds"
+      - name: "Standing Bent-Arm Deltoids"
+        sets: 1
+        reps: 12
+        suffix: "reps"
+
+  - name: "Stabilization"
+    payload:
+      - name: "Shrugs"
+        sets: 1
+        reps: 12
+        suffix: "reps"
+      - name: "Ball Walks"
+        sets: 1
+        reps: 20
+        suffix: "yards"
+      - name: "Double EB Bridge"
+        sets: 1
+        reps: 22
+        suffix: "seconds"

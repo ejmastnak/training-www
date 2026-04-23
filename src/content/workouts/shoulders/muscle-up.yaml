@@ -1,0 +1,65 @@
+name: "Muscle-Up Conditioning"
+type: workout
+phases:
+
+  - name: "Warm-Up"
+    payload:
+      - name: "Ball Walks"
+        sets: 2
+        reps: 20
+        suffix: "yards"
+      - name: "Foam Roller Walks"
+        sets: 2
+        reps: 20
+        suffix: "yards"
+      - name: "Shoulder Rotator Warm-Up"
+        combo: true
+        sets: 1
+        reps: 1
+        suffix: "set"
+      - name: "Standing Rhomboid Pull-Ups"
+        sets: 1
+        reps: 12
+        suffix: "reps"
+
+  - name: "Shoulders"
+    payload:
+      - name: "Leaning Rhomboid Cable Pull-Ups"
+        sets: 3
+        reps: 8-6-8
+        suffix: "reps hlr"
+      - name: "Jumping Straight-Bar Dips"
+        sets: 3
+        reps: 8-6-8
+        suffix: "reps hlr"
+      - name: "Dynamic Neutral-Grip Double-Arm Tricep Extensions"
+        sets: 2
+        reps: 5
+        suffix: "reps hlr"
+      - name: "Static Straight-Body Ring Hold"
+        sets: 3
+        reps: 8-6-8
+        suffix: "seconds"
+      - name: "Jumping Ring Dip to Static Straight-Body Ring Hold"
+        sets: 1
+        reps: 8
+        suffix: "reps hlr"
+
+  - name: "Stabilization"
+    payload:
+      - name: "Shrugs"
+        sets: 1
+        reps: 12
+        suffix: "reps"
+      - name: "Double EB Stability Bridge"
+        sets: 1
+        reps: 22
+        suffix: "seconds"
+      - name: "Ball Walks"
+        sets: 1
+        reps: 20
+        suffix: "yards"
+      - name: "Double EB Bridge"
+        sets: 1
+        reps: 22
+        suffix: "seconds"

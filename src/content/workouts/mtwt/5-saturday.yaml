@@ -1,0 +1,177 @@
+name: "Saturday's Workout"
+category: "MTWT Workouts"
+idx: 6
+phases:
+  - name: "Warm-Up"
+    payload:
+      - name: "Bike"
+        sets: 1
+        reps: 5
+        suffix: mins
+      - name: "Exercise Ball Walks"
+        sets: 2
+        reps: 20
+        suffix: yards
+
+  - name: "Abs"
+    payload:
+      - name: "Bicycles"
+        sets: 1
+        reps: 50
+        suffix: reps total
+      - name: "Reverse Crunch to Crunch"
+        sets: 1
+        reps: 16
+        suffix: reps
+      - name: "V-Twist"
+        sets: 1
+        reps: 22
+        suffix: reps total
+      - name: "Side Crunch"
+        sets: 1
+        reps: 22
+        suffix: reps es
+
+  - name: "Wood Chops to Quadruplets"
+    payload:
+      - name: "Kneeling Wood Chops on EB"
+        sets: 1
+        reps: 12
+        suffix: reps es
+      - name: "Supine Plate Twist on EB"
+        sets: 1
+        reps: 12
+        suffix: reps es
+      - name: "Exercise Ball Twist"
+        sets: 1
+        reps: 16
+        suffix: reps total
+      - name: "Prone Exercise Ball Quadruplets"
+        sets: 1
+        reps: 8
+        suffix: reps total
+      - name: "Push-Up to Quadruplet Combo"
+        sets: 1
+        reps: 10
+        suffix: reps total
+
+  - name: "Glute Bridge to Kettlebell Upright"
+    payload:
+      - name: "Static Supine Glute Bridge"
+        sets: 1
+        reps: 16
+        suffix: seconds
+      - name: "Supine Glute Bridge Raises"
+        sets: 1
+        reps: 22
+        suffix: reps
+      - name: "Supine Glute Bridge Raises with MB"
+        sets: 3
+        reps: 8-6-8
+        suffix: reps
+      - name: "Kneeling on Exercise Ball"
+        sets: 1
+        reps: 22
+        suffix: seconds
+      - name: "Supine Single-Leg Extension on Exercise Ball"
+        sets: 2
+        reps: 10
+        suffix: reps total
+      - name: "Kneeling on Exercise Ball"
+        sets: 1
+        reps: 22
+        suffix: seconds
+      - name: "Supine Single-Leg Chest Flye on Exercise Ball"
+        sets: 2
+        reps: 10
+        suffix: reps each side
+      - name: "Seated Adductor Stretch on EB"
+        sets: 1
+        reps: 12
+        suffix: seconds es
+      - name: "Single-Leg Kettlebell Upright"
+        sets: 2
+        reps: 8
+        suffix: reps es
+
+  - name: "Resistance Band and Elastic Cables"
+    payload:
+      - name: "Forward Resistance Band Walking"
+        sets: 1
+        reps: 22
+        suffix: reps total
+      - name: "Backward Resistance Band Walking"
+        sets: 1
+        reps: 22
+        suffix: reps total
+      - name: "Hip Adductor Cable Pulls"
+        sets: 1
+        reps: 22
+        suffix: reps es
+      - name: "Hip Abductor Cable Pulls"
+        sets: 1
+        reps: 16
+        suffix: reps es 
+      - name: "Medial Hamstring Cable Pulls"
+        sets: 1
+        reps: 16
+        suffix: reps es
+      - name: "Terminal Knee Extensions"
+        sets: 1
+        reps: 1
+        suffix: set
+      - name: "Lateral Resistance Band Walking"
+        sets: 2
+        reps: 20
+        suffix: yards es
+
+  - name: "Hang and Twist"
+    payload:
+      - name: "Bent-Leg Hang and Twist"
+        sets: 1
+        reps: 12
+        suffix: reps total
+      - name: "Hanging Toe Crossovers"
+        sets: 1
+        reps: 16
+        suffix: reps total
+      - name: "Hanging Toe-Ups"
+        sets: 1
+        reps: 16
+        suffix: reps total
+      - name: "Windshield Wipers"
+        sets: 1
+        reps: 12
+        suffix: reps total
+
+  - name: "Cool-Down"
+    payload:
+      - name: "Balance Board Rolls"
+        sets: 1
+        reps: 30
+        suffix: seconds
+      - name: "Balance Board Skater Lunges"
+        sets: 1
+        reps: 8
+        suffix: reps es
+      - name: "Balance Board Sumo Squats"
+        sets: 1
+        reps: 8
+        suffix: reps
+      - name: "Lateral T-Steps"
+        sets: 1
+        reps: 16
+        suffix: reps total
+      - name: "Stability Bridge"
+        sets: 1
+        reps: 30
+        suffix: seconds
+      - name: "Bike"
+        sets: 1
+        reps: 10
+        suffix: mins
+      - name: "Static Stretches"
+        combo: true
+        sets: 1
+        reps: 1
+        suffix: set

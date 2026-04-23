@@ -290,7 +290,7 @@ phases:
         sets: 2
         reps: 20
         suffix: "yards"
-      - name: "Sagitall plane sled drags"
+      - name: "Frontal plane sled drags"
         sets: 2
         reps: 20
         suffix: "yards es"
