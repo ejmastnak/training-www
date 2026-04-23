@@ -1,6 +1,6 @@
 name: "Rings Conditioning"
 type: workout
-payload:
+phases:
 
   - name: "Warm-Up"
     payload:
