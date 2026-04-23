@@ -1,0 +1,120 @@
+name: "Rings Conditioning with Tuesday"
+type: workout
+payload:
+
+  - name: "Warm-Up"
+    payload:
+      - name: "Shoulder Combo on Foam Roller"
+        combo: true
+        sets: 1
+        reps: 1
+        suffix: "set"
+      - name: "Shoulder Rotator Warm-Up"
+        combo: true
+        sets: 1
+        reps: 1
+        suffix: "set"
+      - name: "Shoulder Rotator with RB"
+        sets: 2
+        reps: 30
+        suffix: "seconds"
+
+  - name: "Tuesday's Lift"
+    payload:
+      - name: "Chest Press"
+        sets: 3
+        reps: 10
+        suffix: "reps"
+      - name: "TRX Cable Push Up on EB with Open Arms"
+        sets: 3
+        reps: 8-6-8
+        suffix: "reps"
+      - name: "Split and Jerk"
+        sets: 3
+        reps: 8-6-8
+        suffix: "reps"
+
+  - name: "Thursday's Lift"
+    payload:
+      - name: "Forward Lunges with Plate Twist"
+        sets: 2
+        reps: 20
+        suffix: "yards"
+      - name: "Overhead Barbell Squat"
+        sets: 1
+        reps: 5
+        suffix: "reps"
+      - name: "Single-Leg Overhead Barbell Squat"
+        sets: 2
+        reps: 3
+        suffix: "reps es"
+
+  - name: "Preparation for Rings and Dips"
+    payload:
+      - name: "Overhead Triceps Extensions"
+        sets: 3
+        reps: 10
+        suffix: "reps"
+      - name: "Iron Cross Acclimation Hold on EB"
+        sets: 2
+        reps: 22
+        suffix: "seconds"
+      - name: "Power Pulls"
+        sets: 3
+        reps: 8-6-8
+        suffix: "reps"
+
+  - name: "Rings and Dips"
+    payload:
+      - name: "Straight-Body Ring Holds"
+        sets: 3
+        reps: 16
+        suffix: "seconds"
+      - name: "Exercise Ball Assisted Dips on Bench"
+        sets: 2
+        reps: 16
+        suffix: "reps"
+      - name: "Reverse Flyes"
+        sets: 2
+        reps: 12
+        suffix: "reps"
+      - name: "Muscle-Up Progression Dips to L-Sit"
+        sets: 3
+        reps: 8-6-8
+        suffix: "reps"
+      - name: "Gymnastics Rings Combo"
+        sets: 2
+        reps: 1
+        suffix: "reps"
+
+  - name: "Shoulder Rotators"
+    payload:
+      - name: "Seated Sagittal Shoulder Rotators"
+        sets: 1
+        reps: 16
+        suffix: "reps es"
+      - name: "Seated Frontal Shoulder Rotators"
+        sets: 1
+        reps: 16
+        suffix: "reps es"
+
+  - name: "Stabilization"
+    payload:
+      - name: "Shrugs"
+        sets: 1
+        reps: 16
+        suffix: "reps"
+      - name: "Stability Bridge"
+        sets: 1
+        reps: 22
+        suffix: "seconds"
+      - name: "Shoulder Foam Rolling"
+        combo: true
+        sets: 1
+        reps: 1
+        suffix: "set"
+      - name: "Shoulder Stretches"
+        combo: true
+        sets: 1
+        reps: 1
+        suffix: "set"
