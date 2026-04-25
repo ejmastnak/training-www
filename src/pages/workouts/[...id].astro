@@ -22,10 +22,12 @@ const { workout } = Astro.props;
   <ol class="mt-8 flex flex-col gap-y-2 border border-2 border-blue-900 list-decimal pl-10 pr-4 py-4 max-w-2xl mx-auto">
     {workout.data.payload.map((item) => (
     <li>
-      {item.name} 
-      <span class="font-medium">
-        {(typeof item.reps === "number" && item.sets > 1) && <span>{item.sets} x </span> }
-        <span class="ml-1">{item.reps} {item.suffix}</span></span>
+      <p>
+        {item.name} 
+        <span class="font-medium">
+          {(typeof item.reps === "number" && item.sets > 1) && <span>{item.sets} x </span> }
+          <span class="ml-1">{item.reps} {item.suffix}</span></span>
+      </p>
     </li>
     ))}
   </ol>
@@ -41,11 +43,14 @@ const { workout } = Astro.props;
       <ol class="mt-2 flex flex-col gap-y-2 border border-2 border-blue-900 list-decimal pl-10 pr-4 py-4">
         {phase.payload.map((item) => (
         <li>
-          {item.name} 
-          <span class="font-medium">
-            {(typeof item.reps === "number" && item.sets > 1) && <span>{item.sets} x </span> }
-            <span class="ml-1">{item.reps} {item.suffix}</span>
-          </span>
+          <p>
+            {item.name} 
+            <span class="font-medium">
+              {(typeof item.reps === "number" && item.sets > 1) && <span>{item.sets} x </span> }
+              <span class="ml-1">{item.reps} {item.suffix}</span>
+            </span>
+          </p>
+          {item.note && <p class="text-sm text-gray-600 mb-1">{item.note}</p>}
         </li>
         ))}
       </ol>
