@@ -1,4 +1,4 @@
-name: "Rings Conditioning with Tuesday"
+name: "Thursday Rings Conditioning"
 type: workout
 phases:
 
@@ -19,7 +19,7 @@ phases:
         reps: 30
         suffix: "seconds"
 
-  - name: "Tuesday's Lift"
+  - name: "Thursday's Chest"
     payload:
       - name: "Chest Press"
         sets: 3
@@ -34,7 +34,7 @@ phases:
         reps: 8-6-8
         suffix: "reps"
 
-  - name: "Thursday's Lift"
+  - name: "Thursday's Legs"
     payload:
       - name: "Forward Lunges with Plate Twist"
         sets: 2
@@ -49,7 +49,7 @@ phases:
         reps: 3
         suffix: "reps es"
 
-  - name: "Preparation for Rings and Dips"
+  - name: "Acclimation for Rings and Dips"
     payload:
       - name: "Overhead Triceps Extensions"
         sets: 3

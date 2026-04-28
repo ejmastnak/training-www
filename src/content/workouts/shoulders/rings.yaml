@@ -22,7 +22,7 @@ phases:
         reps: 12
         suffix: "reps"
 
-  - name: "Rings"
+  - name: "Rings Exercises"
     payload:
       - name: "Ball Pass and Rope Swing Combo"
         sets: 1
@@ -87,7 +87,7 @@ phases:
         reps: 12
         suffix: "reps"
 
-  - name: "Reverse Flyes and Superman Exercises"
+  - name: "Superman Exercises on Bosu"
     payload:
       - name: "Prone Superman Reverse Flyes on Bosu"
         sets: 1
@@ -102,7 +102,7 @@ phases:
         reps: 5
         suffix: "reps"
 
-  - name: "Shoulder Proprioception Exercises"
+  - name: "Shoulder Exercises"
     payload:
       - name: "Kneeling 90-90 Cable Machine Row on Bosu"
         sets: 1
@@ -131,7 +131,7 @@ phases:
         sets: 1
         reps: 20
         suffix: "yards"
-      - name: "Double EB Bridge"
+      - name: "Stability Bridge"
         sets: 1
         reps: 22
         suffix: "seconds"

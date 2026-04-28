@@ -1,4 +1,4 @@
-name: "Muscle-Up Conditioning with Thursday"
+name: "Thursday's Muscle-Up Conditioning"
 type: workout
 phases:
 
@@ -52,7 +52,7 @@ phases:
         reps: 1
         suffix: "set"
 
-  - name: "Thursday's Lift"
+  - name: "Thursday's Legs"
     payload:
       - name: "Barbell Side Lunges"
         sets: 2

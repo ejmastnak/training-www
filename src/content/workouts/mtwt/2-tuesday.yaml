@@ -69,6 +69,7 @@ phases:
         sets: 3
         reps: 10
         suffix: reps
+        note: "Shoulder multis, push-up to pop-up, rotators, and oblique push-ups between sets"
       - name: "Leg Step-Up to Overhead Press"
         sets: 2
         reps: 8

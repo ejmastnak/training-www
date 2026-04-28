@@ -114,6 +114,7 @@ phases:
         sets: 1
         reps: 4-4-8-6-8
         suffix: reps
+        note: "Plyo jumps between sets"
       - name: "Double Leg Hamstring Curl"
         sets: 1
         reps: 15
