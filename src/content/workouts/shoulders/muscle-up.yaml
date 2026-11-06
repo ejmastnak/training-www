@@ -22,7 +22,7 @@ phases:
         reps: 12
         suffix: "reps"
 
-  - name: "Dips and Triceps"
+  - name: "Rhomboids, Dips and Triceps"
     payload:
       - name: "Leaning Rhomboid Cable Pull-Ups"
         sets: 3

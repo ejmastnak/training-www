@@ -33,18 +33,15 @@ phases:
         reps: 5
         suffix: "reps"
 
-  - name: "Muscle-Up Progression"
+  - name: "L-Sit Muscle-Up Progression"
     payload:
       - name: "Straight-Bar Dip to L-Sit"
-        sets: 2
+        sets: 3
         reps: 5
         suffix: "reps"
+        note: "Assisted Muscle-Up between sets"
       - name: "Assisted Muscle Up"
         sets: 2
-        reps: 5
-        suffix: "reps"
-      - name: "Straight-Bar Dip to L-Sit"
-        sets: 1
         reps: 5
         suffix: "reps"
       - name: "Gymnastics Rings Combo"

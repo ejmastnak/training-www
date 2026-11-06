@@ -33,7 +33,7 @@ phases:
         reps: 3
         suffix: "reps"
 
-  - name: "Chest-Flye Push-Up Combo"
+  - name: "Chest-Flye Push-Up and L-Sit Combo"
     payload:
       - type: "exercise"
         name: "Ring Chest Flye Push-Up on Exercise Ball"
@@ -102,7 +102,7 @@ phases:
         reps: 5
         suffix: "reps"
 
-  - name: "Shoulder Exercises"
+  - name: "Proprioceptive Shoulder Exercises"
     payload:
       - name: "Kneeling 90-90 Cable Machine Row on Bosu"
         sets: 1

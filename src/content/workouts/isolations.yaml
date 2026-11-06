@@ -1,0 +1,127 @@
+
+name: "Isolations"
+type: workout
+phases:
+
+  - name: "Head and neck"
+    payload:
+    - name: "Head leaning forward and back"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Head leaning left and right"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Head turning left and right"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Neck rolls CW and CCW"
+      sets: 1
+      reps: 22
+      suffix: "s each way"
+      
+  - name: "Shoulders"
+    payload:
+    - name: "Shoulders up and down"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Shoulders forward back, shoulders in phase; 1x, 2x, 3x speed"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Shoulders forward back, shoulders out of phase; 1x, 2x, 3x speed"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Shoulder rolls back, shoulders in phase"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Shoulder rolls back, shoulders out of phase"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Shoulder rolls forward, shoulders in phase"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Shoulder rolls forward, shoulders out of phase"
+      sets: 1
+      reps: 30
+      suffix: "s"
+
+  - name: "Torso"
+    payload:
+    - name: "Chest in and out; 1x, 2x, 3x speed"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Chest up and down; emphasize up; 1x, 2x, 3x speed"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Chest up and down; emphasize down; 1x, 2x, 3x speed"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Torso left and right with hips steady (e.g. with arms extended outward)"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Torso left and right with hips steady 3-count"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Chest: out (forward), right, in (back), left (and reverse); discrete"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Chest: out (forward), right, in (back), left (and reverse); continuous"
+      sets: 1
+      reps: 30
+      suffix: "s"
+
+  - name: "Shoulders"
+    payload:
+    - name: "Shoulder rolls: one back, one forward; discrete"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Shoulder rolls: one back, one forward; continuous; shoulders only"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Shoulder rolls: one back, one forward; continuous; shoulders and chest only"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Shoulder rolls: one back, one forward; continuous; shoulders, chest, and hips"
+      sets: 1
+      reps: 30
+      suffix: "s"
+
+  - name: "Hips"
+    payload:
+    - name: "Hips left and right with torso steady"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Hips forward and back with torso steady"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Hips: forward, left, back, right (and reverse); discrete"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Hips: forward, left, back, right (and reverse); continuous"
+      sets: 1
+      reps: 30
+      suffix: "s"
+    - name: "Hips: forward, left, back, right (and reverse); continuous; squat every other measure"
+      sets: 1
+      reps: 30
+      suffix: "s"
